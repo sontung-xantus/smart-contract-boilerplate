@@ -1,0 +1,19 @@
+{
+    "solidity-va.outline.pragmas.show": false,
+    "solidity-va.outline.imports.show": false,
+    "solidity-va.preview.markdown": true,
+    "solidity-va.diagnostics.cdili_json.import": true,
+    "solidity-va.uml.actors.enable": true,
+    "solidity-va.codelens.drawio.enable": true,
+    "conventionalCommits.scopes": [
+        "tests",
+        "NFTManager.sol",
+        "Interfaces",
+        "TransformationBundles"
+    ],
+    "solidity.defaultCompiler": "remote",
+    "solidity.compileUsingRemoteVersion": "v0.8.10+commit.fc410830",
+    "jest.jestCommandLine": "yarn test",
+    "mochaExplorer.files": "test/**/*.{j,t}s",
+    "solidity-va.debug.parser.showExceptions": true
+}

@@ -1,0 +1,23 @@
+node_modules
+
+#Hardhat files
+cache
+artifacts
+
+# VS Code History Plugin
+
+.history
+
+# types
+.openzeppelin
+
+#tests
+coverage/
+yarn-error.log
+types/**/*.ts
+yarn-error.log
+.openzeppelin/*
+.openzeppelin/
+coverage.json
+.bash_history
+.env
