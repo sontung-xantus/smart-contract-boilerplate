@@ -1,8 +1,6 @@
-import { expect, use } from 'chai'
-import { solidity } from 'ethereum-waffle'
-import { jestSnapshotPlugin } from 'mocha-chai-jest-snapshot'
+import { expect, use } from "chai";
+import { jestSnapshotPlugin } from "mocha-chai-jest-snapshot";
 
-use(solidity)
-use(jestSnapshotPlugin())
+use(jestSnapshotPlugin());
 
-export { expect }
+export { expect };
